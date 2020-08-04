@@ -6,7 +6,7 @@ For more details about spaCy visit the [official website](https://spacy.io/).
 - Python version: Python 3.8+
 - SpaCy version: 2.2.4+
 
-One way is to install the latest version of spaCy and all dependencies:
+One way to install the latest version of spaCy and all dependencies is:
 ```
 python -m venv .env
 .env\Scripts\activate
