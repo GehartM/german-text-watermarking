@@ -1,4 +1,4 @@
-# Digital text watermarking program for German language
+# Digital text watermarking program for the German language
 An easy to use program to embed a unique marking into a German text using Natural Language (NL) watermarking techniques and the open-source Natural Language Processing (NLP) library spaCy.
 For more details about spaCy visit the [official website](https://spacy.io/).
 
