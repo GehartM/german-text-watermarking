@@ -29,6 +29,7 @@ python WatermarkingProgram.py -E <embed mode> <path to original file> <path to o
    **Watermarking methods:**	Any number of methods can be listed one after the other, separated by space.
 
 
+
 The syntax to extract a marking is as follows:
 ```
 python WatermarkingProgram.py -A <extraction mode> <path to marked file> <secret key> <path to original file>
@@ -38,5 +39,6 @@ python WatermarkingProgram.py -A <extraction mode> <path to marked file> <secret
    - **Secret key:**				The secret key that was used for embedding.
    - **Path to original file:**	Specifies the absolute or relative path to the original unmarked file. However, this must only be specified when using the non-blind extraction mode <-N>.
 
+**Notice:** In blind mode the inserted marking can be extracted without the presence of the original document. In opposite, to the non-blind mode where the original text is needed for retrieval. That mode must be selected identically in both the embedding and the extraction process. 
 
 **Currently only text files are supported!**
