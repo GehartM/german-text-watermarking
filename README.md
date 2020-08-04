@@ -25,8 +25,8 @@ python WatermarkingProgram.py -E <embed mode> <path to original file> <path to o
    - **Path to original file:**	Specifies the absolute or relative path to the file to be marked.
    - **Path to output file:**	Defines the absolute or relative path including the filename to save the selected file.
    - **Secret key:**			This is the secret key, which can be freely defined. It may contain upper and lower case letters, numbers and special characters. This key must be kept secret, because the embedded watermark can be read using this key.
-   **Text to embed:**		Represents the message to be embbed. It consists of a maximum of 30 characters and can contain numbers and letters of the German alphabet.
-   **Watermarking methods:**	Any number of methods can be listed one after the other, separated by space.
+   - **Text to embed:**		Represents the message to be embbed. It consists of a maximum of 30 characters and can contain numbers and letters of the German alphabet.
+   - **Watermarking methods:**	Any number of methods can be listed one after the other, separated by space.
 
 
 
