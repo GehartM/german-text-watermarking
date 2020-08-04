@@ -36,7 +36,7 @@ python WatermarkingProgram.py -A <extraction mode> <path to marked file> <secret
    - **Extraction mode:**			A blind <-B> and a non-blind <-N> mode is available.
    - **Path to marked file:**		Specifies the absolute or relative path to the file to read a watermark from.
    - **Secret key:**				The secret key that was used for embedding.
-   - **Path to original file:**	Specifies the absolute or relative path to the original unmarked file. However, this must only be specified when using the non-blind extraction mode (-N).
+   - **Path to original file:**	Specifies the absolute or relative path to the original unmarked file. However, this must only be specified when using the non-blind extraction mode <-N>.
 
 
 **Currently only text files are supported!**
